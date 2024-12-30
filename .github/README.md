@@ -52,6 +52,11 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 - For getting out from tmux session<br>
 Press `Ctrl+b` and then `d`
 
+If you're using motor <3.6 and can't upgrade, cap the pymongo version to <4.9: eg pip install --upgrade 'motor==3.5.1' 'pymongo<4.9'
+
+motor==3.4.0
+pymongo==4.8.0
+
 <p align="left">
   <img src="https://te.legra.ph/file/fa5b692e4ddb87559db17.jpg">
 </p>
